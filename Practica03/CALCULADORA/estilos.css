@@ -1,0 +1,37 @@
+html {
+
+    padding: 100px 500px
+}
+
+.calculadora {
+
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 3px azure outset;
+}
+
+
+#textoPantalla {
+    width: 200px;
+    border: 5px azure solid;
+    text-align: right;
+    position: relative;
+    left: 23px;
+    padding: 0px 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.calculadora [type=button] {
+    width: 60px;
+    padding: 0;
+
+}
+
+.calculadora input.largo {
+    color: skyblue;
+    width: 70px;
+}

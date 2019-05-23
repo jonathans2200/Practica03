@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+ <head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+ 
+  <script language="JavaScript" type="text/javascript" src="validacion.js"></script>
+  <link rel="stylesheet" type="text/css" href="estiloFormulario.css" media="screen" >
+  
+ </head>
+
+
+
+ <body>
+	<div id="fondo">
+		<form id="formulario" name="formulario" method="post" onsubmit="return validarCamposObli(this);">
+			
+
+			
+			<label>Nombres:</label>
+			<input type="texto" id="nombre" value=""  onblur="validarSoloLetras();">*&nbsp; &nbsp;<label id="salida1"></label><br>
+			
+			<label>Apellidos:</label>
+			<input type="texto" id="apellido" value="" onblur="validarSoloLetras1();">*&nbsp; &nbsp;<label id="salida2"></label><br>
+
+
+			<label>Cedula:</label>
+			<input type="texto" id="cedula" value=""  onblur="validarCedula();" >*&nbsp; &nbsp;<label id="salida"></label><br>
+
+		
+			<label>Telefono</label>
+			<input type="tel" id="telefono" value="" onblur="validarSoloNumero();">*&nbsp; &nbsp;<label id="salida3"></label><br>
+
+			<label>Correo:</label>
+			<input type="texto" id="correo" value="" onblur="validarCorreo();" >*&nbsp; &nbsp;<label id="salida4"></label><br>
+		
+			<input type="submit" id="enviar" value="Eviar" />
+			<input type="button" id="cancelar" value="Cancelar" /><br>
+        
+
+			<div id="mensaje"></div>
+			
+		</form>
+	</div>	
+	
+ </body>
+ </html>

@@ -1,0 +1,25 @@
+body{
+    text-align:center;
+    font-family:verdana,arial,helvetica,sans-serif;
+    background-color: azure;
+   }
+   #galeria{
+    border:solid 2px #158090;
+    border-radius: 15px;
+    background-color:#dcdcdc;
+    margin:0 auto;
+    width :400px;
+    padding:14px;
+   }
+   #botones button{
+    clear:both;
+    margin:0 auto;
+    width:100px;
+    height:31px;
+    background:#696969;
+    text-align:center;
+    line-height:31px;
+ color : #fff;
+ font-size:11px;
+ font-weight:bold;
+}
